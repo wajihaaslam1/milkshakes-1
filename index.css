@@ -1,0 +1,668 @@
+.container{
+    display: flex;
+    background-color: lightgrey;
+    width: 100%;
+    height: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/pexels-photo-1086584.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    margin-left: 1100px;
+    display: flex;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.feed button{
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: azure;
+    color: black;
+}
+.feed{ 
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.tic button{
+    width: 100px;
+    border-radius:10px ;
+    height: 30px;
+    background-color: azure;
+    color: black;
+}
+.tic{
+    margin-top:-5px ;
+}
+#logo{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: -40;
+
+    
+}
+#logo h2{
+    margin-bottom: 60px;
+    text-align: center;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    margin-top:-50px ;
+}
+.head h1{
+    margin-bottom: 50px;
+}
+.small-container{
+    display: flex;
+    height: 90px;
+    color: beige;
+
+    
+}
+.small-container h1{
+     margin-left: 40px; 
+    /* width: 300px; */
+    /* color: white; */
+     margin-bottom: 90px; 
+    /* font-family: cursive; */
+
+}
+.navbar ul{
+    /* border:2px solid black; */
+    list-style-type: none;
+    /* display:inline-block; */
+    /* margin-top: 7px;
+    font-size: 22px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* padding-left: 10px; */
+    font-style: italic;
+    /* color:white; */
+    /* margin-left: 20px; */
+    /* padding: 10px; */
+    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    padding: 10px;
+    margin-top: 28px;
+    color: beige;
+
+}
+
+.navbar ul{
+    float: right;
+    margin-left: 600px;
+    color: white;
+}
+.h1{
+    /* color: yellow */
+    margin-left: 50px;
+    
+}
+.div1{
+    background-color: lightgrey ;
+    color:white;
+}
+.div9{
+    
+    background-color: lightgray ;
+    /* color:white; */
+    /* padding: ; */
+}
+
+#banner{
+    animation: anim;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    width: 100%;
+    height: 500px;
+    animation-timing-function: ease-out;
+    margin-bottom: 20px;
+}
+@keyframes anim{
+    0%{
+        background-image:url(image/pexels-photo-1522160.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-image: url(image/pexels-photo-145956.jpeg);
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+     100%{
+        background-image: url(image/pexels-photo-668867.jpeg);
+        background-repeat:no-repeat;
+        background-size: cover;
+     }
+}
+#banner h1{
+    color:whitesmoke;
+    text-align: left;
+    margin-left: 80px;
+    padding-top:150px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-ser;
+}
+#banner p{
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 80px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn2 {
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    padding-top: 5px;
+    margin-top: 10px;
+    background-color: brown;
+    color: beige;
+}
+.container1{
+     background-color: bisque;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    color: black;
+}
+.div2{
+    display: flex;
+}
+.div2 h1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div2 p{
+    margin-left: 30px;
+    width: 500px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div2 img{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.div2 img :hover{
+    box-shadow: 10px 20px 20px 0px rgb(32, 32, 122);
+    border: 2px solid black;
+}
+.frt h1{
+    background-color: beige;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.con{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: azure;
+}
+.img1{
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.container2{
+ margin-top: 50px;
+ color: beige;
+}
+    
+
+
+.container2 h2 {
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container2 p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.div5{
+    display: inline-block;
+    margin-left: 200px; 
+    color: beige;
+    margin-bottom: 50px;
+    padding: 2px;
+}
+
+footer{
+    background-color:lightgray; 
+    height: 450px;
+    
+}
+.box5 h2{
+text-align: center;
+   font-size: 30px; 
+   color: black;
+   width: 300px;
+   margin-left: 500px;
+   margin-top: 10px;
+
+}
+.box6{
+    margin-top: 100px;
+    display: flex;
+    color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 100px;
+    
+}
+.box7{
+    margin-right: 200px;
+    font-size: 20px;
+    width: 500px;
+    margin-top: 30px;
+    
+    
+}
+.box8{
+    margin-right: 200px;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.box9{
+    margin-right: 200px;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.fa-instagram{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.fa-facebook-square{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.fa-twitter{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.fa-youtube-play{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.box10{
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.email{
+    width: 300px;
+    height: 50px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius:50px ;
+    color: white;
+    background-color: blue;
+}
+@media screen and (max-width:700px) {
+    .container{
+        display: flex;
+        background-color: rgb(42, 42, 117);
+        width: 100%;
+        height: 50px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url(image/pexels-photo-1086584.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box{
+        margin-left: 1100px;
+        display: flex;
+        margin-top: 20px;
+        height: 30px;
+    }
+    .feed button{
+        width: 100px;
+        border-radius: 10px;
+        height: 30px;
+        background-color: azure;
+        color: black;
+    }
+    .feed{ 
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+    .tic button{
+        width: 100px;
+        border-radius:10px ;
+        height: 30px;
+        background-color: azure;
+        color: black;
+    }
+    .tic{
+        margin-top:-5px ;
+    }
+    #logo{
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-top: -40;
+    }
+    #logo h2{
+        margin-bottom: 60px;
+        text-align: center;
+        margin-left: 80px;
+        padding-bottom: 20px;
+        margin-top:-50px ;
+    }
+    .head h1{
+        margin-bottom: 50px;
+    }
+    .small-container{
+        display: flex;
+        height: 90px;
+        color: black;  
+    }
+    .small-container h1{
+         margin-left: 40px; 
+       
+         margin-bottom: 90px; 
+       
+    
+    }
+    .navbar ul{
+       
+        list-style-type: none;
+       
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        font-style: italic;
+        
+        
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        display: block;
+        padding: 10px;
+        margin-top: 28px;
+        color: beige;
+    
+    }
+    
+    .navbar ul{
+        float: right;
+        margin-left: 600px;
+        color: white;
+    }
+    .h1{
+        
+        margin-left: 50px;
+        
+    }
+    .div1{
+        background-color:lightgrey;
+        color:white;
+    }
+    .div9{
+        
+        background-color: lightgray;
+        
+    }
+    
+    #banner{
+        animation: anim;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+        animation-delay: 1s;
+        width: 100%;
+        height: 500px;
+        animation-timing-function: ease-out;
+        margin-bottom: 20px;
+    }
+    @keyframes anim{
+        0%{
+            background-image:url(image/URKnau.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        60%{
+            background-image: url(image/photo-1574492543172-b37ab0de758c.jfif);
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+         100%{
+            background-image: url(image/1200x-1.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;
+         }
+    }
+    #banner h1{
+        color:white;
+        /* color: black; */
+        text-align: left;
+        margin-left: 80px;
+        padding-top:150px;
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-ser;
+    }
+    #banner p{
+        color: whitesmoke;
+        text-align: left;
+        margin-left: 80px;
+        padding-top: 10px;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .btn2 {
+        width: 200px;
+        height: 50px;
+        margin-left: 100px;
+        padding-top: 5px;
+        margin-top: 10px;
+        background-color: brown;
+        color: beige;
+    }
+    .container1{
+         background-color: bisque;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 50px;
+        color: black;
+    }
+    .div2{
+        display: flex;
+    }
+    .div2 h1{
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .div2 p{
+        margin-left: 30px;
+        width: 500px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .div2 img{
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .div2 img :hover{
+        box-shadow: 10px 20px 20px 0px rgb(32, 32, 122);
+        border: 2px solid black;
+    }
+    .frt h1{
+        background-color: beige;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 40px;
+    }
+    .con{
+        margin-left: 80px;
+        margin-right: 80px;
+        background-color: azure;
+    }
+    .img1{
+        margin-left: 80px;
+        display: inline-block;
+    }
+    
+    .container2{
+     margin-top: 50px;
+     color: beige;
+    }
+        
+    
+    
+    .container2 h2 {
+        font-size: 50px;
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .container2 p {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 50px;
+    }
+    .div5{
+        display: inline-block;
+        margin-left: 200px; 
+        color: beige;
+        margin-bottom: 50px;
+        padding: 2px;
+    }
+    
+    footer{
+        background-color:lightgray; 
+        height: 450px;
+        
+    }
+    .box5 h2{
+    text-align: center;
+       font-size: 30px; 
+       color: black;
+       width: 300px;
+       margin-left: 500px;
+       margin-top: 10px;
+    
+    }
+    .box6{
+        margin-top: 100px;
+        display: flex;
+        color: black;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-left: 100px;
+        
+    }
+    .box7{
+        margin-right: 200px;
+        font-size: 20px;
+        width: 500px;
+        margin-top: 30px;
+        
+        
+    }
+    .box8{
+        margin-right: 200px;
+        width: 500px;
+        font-size: 20px;
+        margin-top: 30px;
+        
+    }
+    .box9{
+        margin-right: 200px;
+        width: 500px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .fa-instagram{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .fa-facebook-square{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .fa-twitter{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .fa-youtube-play{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .box10{
+        margin-left: 400px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .email{
+        width: 300px;
+        height: 50px;
+    }
+    .btn{
+        width: 100px;
+        height: 50px;
+        margin-left: 5px;
+        border-radius:50px ;
+        color: white;
+        background-color: blue;
+    }
+    }

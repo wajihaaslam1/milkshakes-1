@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: -40;
+
+    
+}
+#logo h2{
+    margin-bottom: 60px;
+    text-align: center;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    margin-top:-50px ;
+}
+.head h1{
+    margin-bottom: 50px;
+}
+.small-container{
+    display: flex;
+    height: 90px;
+    color: beige;
+
+    
+}
+.small-container h1{
+     margin-left: 40px; 
+    /* width: 300px; */
+    /* color: white; */
+     margin-bottom: 90px; 
+    /* font-family: cursive; */
+
+}
+.navbar ul{
+    /* border:2px solid black; */
+    list-style-type: none;
+    /* display:inline-block; */
+    /* margin-top: 7px;
+    font-size: 22px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* padding-left: 10px; */
+    font-style: italic;
+    /* color:white; */
+    /* margin-left: 20px; */
+    /* padding: 10px; */
+    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    padding: 10px;
+    margin-top: 28px;
+    color: beige;
+
+}
+.navbar ul{
+    float: right;
+    margin-left: 600px;
+    color: white;
+}
+.h1{
+    /* color: yellow */
+    margin-left: 50px;
+    
+}
+.div1{
+    background-color: rgb(43, 43, 104) ;
+    color:white;
+}
+.div2{
+    
+    background-color: rgb(43, 43, 104) ;
+    /* color:white; */
+    /* padding: ; */
+}
+
+body{
+    background-image: url(image/2021-05-04.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position:right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container1 h1{
+   text-align: center;
+   margin-top:30px;
+   color: whitesmoke;
+   font-size: 40px;
+   text-shadow:20px 20px 30px 0px rgb(61, 61, 131) ;
+}
+.container1{
+    background-color: rgb(116, 116, 133);
+    height:650px;
+    width:800px;
+    margin-left: 300px;
+    margin-top:50px;
+    box-shadow: 10px 10px 20px 0px rgb(139, 144, 190);
+    border:2px solid black;
+    margin-bottom: 200px;
+}
+.name{
+    width:300px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.lst{
+    width:300px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.email{
+    width:250px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.number{
+    width:300px;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}  
+.add{
+    width:630PX;
+    height:50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.msg{
+    width:630px;
+    height:100px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.btn1{
+    width:200px;
+    height:50px;
+    margin-left: 300px;
+    margin-top: 50px;
+    background-color: rgb(101, 101, 179);
+    border-radius: 50px;
+}
+footer{
+    background-color:lightgrey; 
+    height: 450px;
+    
+}
+
+.box6{
+    margin-top: 100px;
+    display: flex;
+    color: black;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.box6 h2{
+    color: black;
+}
+.box7{
+    margin-right: 200px;
+    font-size: 20px;
+    width: 500px;
+    margin-top: 50px;
+    color: saddlebrown;
+    
+    
+}
+.box8{
+    margin-right: 200px;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 50px;
+    color: saddlebrown;
+    
+    
+}
+.box9{
+    margin-right: 200px;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 50px;
+    color: saddlebrown;
+}
+.fa-instagram{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: palevioletred;
+}
+.fa-facebook-square{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: blue;
+}
+.fa-twitter{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: blue;
+}
+.fa-youtube-play{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: red;
+}
+.box10{
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.email{
+    width: 300px;
+    height: 50px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius:50px ;
+    color: white;
+    background-color: blue;
+}
+@media screen and (max-width:700px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #logo{
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-top: -40;   
+    }
+    #logo h2{
+        margin-bottom: 60px;
+        text-align: center;
+        margin-left: 80px;
+        padding-bottom: 20px;
+        margin-top:-50px ;
+    }
+    .head h1{
+        margin-bottom: 50px;
+    }
+    .small-container{
+        display: flex;
+        height: 90px;
+        color: beige;
+    }
+    .small-container h1{
+         margin-left: 40px; 
+        
+         margin-bottom: 90px; 
+        
+    
+    }
+    .navbar ul{
+        
+        list-style-type: none;
+        
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       
+        font-style: italic;
+       
+        
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        display: block;
+        padding: 10px;
+        margin-top: 28px;
+        color: beige;
+    
+    }
+    .navbar ul{
+        float: right;
+        margin-left: 600px;
+        color: white;
+    }
+    .h1{
+        
+        margin-left: 50px;
+        
+    }
+    .div1{
+        background-color: rgb(43, 43, 104) ;
+        color:white;
+    }
+    .div2{
+        
+        background-color: rgb(43, 43, 104) ;
+        
+    }
+    
+    body{
+        background-image: url(image/2021-05-04.jpg);
+        height: 500px;
+        background-size: cover;
+        background-position:right center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .container1 h1{
+       text-align: center;
+       margin-top:30px;
+       color: whitesmoke;
+       font-size: 40px;
+       text-shadow:20px 20px 30px 0px rgb(61, 61, 131) ;
+    }
+    .container1{
+        background-color: rgb(116, 116, 133);
+        height:650px;
+        width:800px;
+        margin-left: 300px;
+        margin-top:50px;
+        box-shadow: 10px 10px 20px 0px rgb(139, 144, 190);
+        border:2px solid black;
+        margin-bottom: 200px;
+    }
+    .name{
+        width:300px;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .lst{
+        width:300px;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .email{
+        width:250px;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .number{
+        width:300px;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }  
+    .add{
+        width:630PX;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+    }
+    .msg{
+        width:630px;
+        height:100px;
+        margin-left: 20px;
+        margin-top: 30px;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+    .btn1{
+        width:200px;
+        height:50px;
+        margin-left: 300px;
+        margin-top: 50px;
+        background-color: rgb(101, 101, 179);
+        border-radius: 50px;
+    }
+    footer{
+        background-color:lightgrey; 
+        height: 450px;
+        
+    }
+    
+    .box6{
+        margin-top: 100px;
+        display: flex;
+        color: black;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: 20px;
+        
+    }
+    .box6 h2{
+        color: black;
+    }
+    .box7{
+        margin-right: 200px;
+        font-size: 20px;
+        width: 500px;
+        margin-top: 50px;
+        color: saddlebrown;
+        
+        
+    }
+    .box8{
+        margin-right: 200px;
+        width: 500px;
+        font-size: 20px;
+        margin-top: 50px;
+        color: saddlebrown;
+        
+        
+    }
+    .box9{
+        margin-right: 200px;
+        width: 500px;
+        font-size: 20px;
+        margin-top: 50px;
+        color: saddlebrown;
+    }
+    .fa-instagram{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+        color: palevioletred;
+    }
+    .fa-facebook-square{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+        color: blue;
+    }
+    .fa-twitter{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+        color: blue;
+    }
+    .fa-youtube-play{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+        color: red;
+    }
+    .box10{
+        margin-left: 400px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .email{
+        width: 300px;
+        height: 50px;
+    }
+    .btn{
+        width: 100px;
+        height: 50px;
+        margin-left: 5px;
+        border-radius:50px ;
+        color: white;
+        background-color: blue;
+    }
+}
+   
